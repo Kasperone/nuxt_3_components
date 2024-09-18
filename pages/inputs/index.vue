@@ -1,3 +1,5 @@
 <template>
-  <h1>Inputs page</h1>
+  <div class="v-inputs">
+    <p class="text-purple-300">INPUTS</p>
+  </div>
 </template>
