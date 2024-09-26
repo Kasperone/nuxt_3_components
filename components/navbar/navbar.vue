@@ -9,7 +9,7 @@
         class="uppercase text-gray-500 text-xl"
         @click="setSelectedMenuLinkIndex(menuLinkIndex)"
       >
-        {{ menuLink.linkName }}
+        {{ menuLink.label }}
       </NuxtLink>
     </div>
   </div>
@@ -22,10 +22,10 @@ const setSelectedMenuLinkIndex = (menuLinkIndex: number) =>
   (selectedMenuLinkIndex.value = menuLinkIndex);
 
 const menuLinks = [
-  { linkName: "Home", pagePath: "home" },
-  { linkName: "Inputs", pagePath: "inputs" },
-  { linkName: "Sliders", pagePath: "sliders" },
-  { linkName: "Progress bars", pagePath: "progress-bars" },
-  { linkName: "Loaders", pagePath: "loaders" },
+  { label: "Home", pagePath: "home" },
+  { label: "Inputs", pagePath: "inputs" },
+  { label: "Sliders", pagePath: "sliders" },
+  { label: "Progress bars", pagePath: "progress-bars" },
+  { label: "Loaders", pagePath: "loaders" },
 ];
 </script>
